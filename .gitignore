@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+.env/
+.env.bak
+.venv/
+
+# FastAPI
+*.sqlite3
+
+# Pydantic / SQLAlchemy / Alembic migrations
+migrations/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Pytest
+.cache/
+
+# Database files (optional, dependendo de como você armazena seus dados)
+*.db
+*.db-journal
+
+# Secrets
+*.env
+
+# MySQL/PostgreSQL local config files
+*.sql
+*.pgsql
